@@ -1,7 +1,8 @@
 import React from "react";
+import { SVGDiv } from './BackgroundStyle.js';
 
 const BackgroundAnimation = () => (
-  <div>
+  <SVGDiv>
     <svg
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"
@@ -2236,7 +2237,7 @@ const BackgroundAnimation = () => (
         </radialGradient>
       </defs>
     </svg>
-  </div>
+  </SVGDiv>
 );
 
 export default BackgroundAnimation;
