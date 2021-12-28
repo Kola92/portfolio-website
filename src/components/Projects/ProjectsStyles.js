@@ -41,7 +41,7 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
 

@@ -21,6 +21,12 @@ export const Boxes = styled.div`
     margin: 24px auto;
   }
 `
+export const Img = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+`;
 
 export const Box = styled.div`
   background: #212D45;
