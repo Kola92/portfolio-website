@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "Soundmagix Song Writers",
     description:
-      "Sound Magix SongWriters WorPress is a music-themed website that display an array of songs with different genres(Afrobeat, Afropop, Pop, RnB, Hip Hop etc) and songs can be grouped together in a page according to the navigation menu that is selected.",
+      "Sound Magix SongWriters WordPress is a music-themed website that display an array of songs with different genres(Afrobeat, Afropop, Pop, RnB, Hip Hop etc) and songs can be grouped together in a page according to the navigation menu that is selected.",
     image: "/images/soundmagix.webp",
     tags: ["WordPress", "Paystack API", "PHP"],
     source: "https://github.com/Kola92",
