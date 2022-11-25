@@ -6,7 +6,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxText, Img } from "./AccomplishmentsStyles";
-import { Achievements } from "../../constants/constants_copy";
+import { Achievements } from "../../constants/constants";
 import { IoCloseCircleOutline } from "react-icons/io5";
 
 

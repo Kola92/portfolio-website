@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { TimeLineData } from '../../constants/constants_copy';
+import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -19,7 +19,7 @@ const Timeline = () => {
 
     if (carouselRef.current) {
       const scrollLeft = Math.floor(carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length));
-      
+
       scroll(carouselRef.current, scrollLeft);
     }
   }
@@ -46,17 +46,17 @@ const Timeline = () => {
       <Section id="about">
         <SectionTitle>About Me</SectionTitle>
         <SectionText>
-          My passion in software development started in 2016 when I was freelancing as a software tester. 
-          Testing web and mobile applications for defects (bugs) got me really interested in the idea of designing and building something 
+          My passion in software development started in 2016 when I was freelancing as a software tester.
+          Testing web and mobile applications for defects (bugs) got me really interested in the idea of designing and building something
           so complex, technical and awesome at same time with lines of code. <br />
-          I got really curious about the whole process of building applications for the internet and mobile phones, so I started my journey in 2017 
+          I got really curious about the whole process of building applications for the internet and mobile phones, so I started my journey in 2017
           by learning the basics - HTML, CSS & JavaScript via freecodecamp, w3schools and MDN(Mozilla Developer Network) sites.<br />
           By the year 2019 I have now gained over two years of professional experience building great looking websites for different clients.
           <br />
           2021, a new year I shifted my focus to master the Google Cloud Platform(GCP) cloud development through the Google Africa Developer Scholarships(GADS) Associate Cloud Engineer course, also I
            am enrolled in the Amazon Web Services(AWS) Cloud Practitioner Developer course via the Get AWS Certified - Sub-Saharan Africa Challenge.
            I am not slowing down though even though the cloud courses are underway, I am learning React Native and building projects with these newly acquired skills.<br />
-           My ultimate goal is to become a world class software developer using my acquired skills and experiences to create top quality products for businesses and individuals 
+           My ultimate goal is to become a world class software developer using my acquired skills and experiences to create top quality products for businesses and individuals
            to achieve their own goal of making a positive impact in the world through the challenges the products solve.
 
         </SectionText>
